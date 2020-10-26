@@ -113,6 +113,11 @@ function Books(props) {
     } 
   }, [props])
 
+  useEffect(() => {
+    const timeId = setTimeout(setLoadingBooks, 5000);
+    return () => (clearTimeout(timeId))
+  }, [])
+
   return (
     <React.Fragment>
       <Header title="Book Recommendations" />

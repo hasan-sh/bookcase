@@ -71,6 +71,7 @@ function Home(props) {
       setGenres(Array.from(apiGenres.values()))
       setAuthors(Array.from(apiAuthors.values()))
     })
+    .catch(alert)
   }, [])
   return (
     <React.Fragment>

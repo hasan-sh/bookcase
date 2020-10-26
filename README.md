@@ -17,6 +17,9 @@ the final command runs the app in the development mode.
 > We focus on mobile; for now. So after it runs, open the inspector and run the mobile emulator.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+> **Important** if you encounter a _network error_, then you will have to install a [CORS](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en) plugin in order to retrieve data from the same origin.
+
+
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
